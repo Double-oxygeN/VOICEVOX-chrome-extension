@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "VOICEVOX読み上げ",
+  "description": "VOICEVOXを利用してテキストを読み上げる．予めVOICEVOXを起動する必要あり．",
+  "version": "0.2",
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "storage"
+  ]
+}
